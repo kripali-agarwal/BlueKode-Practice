@@ -1,0 +1,371 @@
+body {
+    background-color: #080B1A;
+    background-image: url("Dreamy Indigo Nebula Starfield.png");
+    color: #F1F5F9;
+    font-family: Georgia, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #111936;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-family: Georgia;
+}
+
+.logo {
+    color: #A78BFA;
+    font-size: 28px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav button {
+    background-color: transparent;
+    color: #F1F5F9;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#Home {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-text h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color:#A78BFA;
+}
+
+.home-text h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#About-Me {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#About-Me h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    color: #D7DDF0;
+}
+
+
+#Education {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#Education > h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education-intro {
+    color: #D7DDF0;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.education-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.education-card {
+    background-color: #080B1A;
+    border: 1px solid #4F46E5;
+    border-radius: 12px;
+    padding: 22px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.education-card h2 {
+    color: #A78BFA;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education-card h3 {
+    color: #F1F5F9;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.education-date {
+    color: #A78BFA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.education-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #D7DDF0;
+}
+
+.education-card .education-highlight {
+    border-top: 1px solid #242044;
+    padding-top: 12px;
+    color: #A78BFA;
+    font-size: 14px;
+}
+
+#Leadership-and-Extracurriculars {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#Leadership-and-Extracurriculars > h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.leadership-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.leadership-list li {
+    background-color: #080B1A;
+    color: #D7DDF0;
+    border: 1px solid #242044;
+    border-radius: 12px;
+    padding: 18px 22px;
+    font-size: 15px;
+    line-height: 1.6;
+
+    display: flex;
+    align-items: center;
+
+    transition: border-color 0.3s;
+}
+
+#Skills {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#Skills > h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-card {
+    background-color: #080B1A;
+    border: 1px solid #4F46E5;
+    border-radius: 12px;
+    padding: 22px;
+    flex: 1;
+    min-width: 250px;
+}
+
+#Skills h2 {
+    color: #A78BFA;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #D7DDF0;
+}
+
+#Achievements {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#Achievements > h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.achieve-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.achieve-card {
+    background-color: #080B1A;
+    border: 1px solid #4F46E5;
+    border-radius: 12px;
+    padding: 22px;
+    flex: 1;
+    min-width: 250px;
+}
+
+#Achievements h2 {
+    color: #A78BFA;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.achieve-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #D7DDF0;
+}
+
+#Socials {
+    background-color: #111936;
+    color: #F1F5F9;
+    border: 2px solid #4F46E5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 35px;
+}
+
+#Socials > h1 {
+    color: #A78BFA;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.socials-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.socials-card {
+    background-color: #080B1A;
+    border: 1px solid #242044;
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.socials-card a {
+    text-decoration: none;
+}
+
+.socials-card button {
+    background-color: #4F46E5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.socials-card h2 {
+    color: #A78BFA;
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.socials-card p {
+    color: #D7DDF0;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .socials-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -4,53 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website - Kripali Agarwal D</title>
-    <h1>Portfolio Website</h1>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <nav>
-    <button>Home</button>
-    <button>About Me</button>
-    <button>Education</button>
-    <button>Leadership & Extracurriculars</button>
-    <button>Skills</button>
-    <button>Achievements</button>
-    <button>Socials</button>
+    <h1 class="logo">Portfolio Website</h1>
+
+    <div class="new-links">
+        <button>Home</button>
+        <button>About Me</button>
+        <button>Education</button>
+        <button>Leadership & Extracurriculars</button>
+        <button>Skills</button>
+        <button>Achievements</button>
+        <button>Socials</button>
+    </div>
 </nav>
 
 <body>
 
 <section id="Home">
-    <h1>Meet, Kripali Agarwal D!</h1>
-    <h2>Curiosity Beyond Limits | Leadership Beyond Titles | Impact Beyond Self</h2>
-    <img src="C:\Users\Kripali Agarwal\OneDrive\Documents\Python Codes\Portfolio\WhatsApp Image 2026-10-08 at 06.50.14.jpeg" alt="Kripali Agarwal D">
+    <img src="C:\Users\Kripali Agarwal\OneDrive\Documents\Python Codes\Portfolio\WhatsApp Image 2026-10-08 at 06.50.14.jpeg" alt="Kripali Agarwal D" class="profile-photo">
+    <div class="home-text">
+        <h1>Meet, Kripali Agarwal D!</h1>
+        <h2>Curiosity Beyond Limits | Leadership Beyond Titles | Impact Beyond Self</h2>
+    </div>
 </section>
 
-<section id="About Me">
-    <h1>About:</h1>
-    <h2>Kripali Agarwal D is a 16-year-old student driven by curiosity and a belief that growth begins at the edge of what is already known.
 
-        She is drawn to questions that challenge boundaries—of knowledge, perspective, and possibility. To Kripali, stepping beyond what is familiar is not about having all the answers, but about being willing to question, learn, and look at things from a different perspective.
+<section id="About-Me">
+    <h1>About Me</h1>
 
-        She believes that boundaries are rarely permanent. They can be challenged, expanded, and sometimes redefined entirely. This shapes the way she approaches learning: with curiosity, openness to unfamiliar ideas, and a desire to understand things more deeply rather than simply accept them as they are.
+    <div class="about-content">
+        <p>
+            I am a student driven by curiosity and a belief that
+            growth begins at the edge of what is already known.
+        </p>
 
-        Her interests lie across STEM, leadership, communication, and ideas that can create meaningful change. Rather than following a predetermined path, Kripali hopes to keep exploring where curiosity takes her, while using what she learns to create opportunities for herself and others.
+        <p>
+            My interests lie in space exploration, physics,
+            astronomy, and the questions that help us understand
+            the universe. I enjoy exploring ideas, learning new
+            concepts, and challenging myself beyond the classroom.
+        </p>
 
-        For her, pushing boundaries is not about crossing them simply for the sake of it. It is about discovering what lies beyond them—and asking what else might be possible.</h2>
+        <p>
+            Beyond academics, I am passionate about leadership,
+            student initiatives, and creating meaningful impact.
+            Through school leadership and extracurricular
+            experiences, I aim to turn ideas into action and
+            contribute to the communities I am part of.
+        </p>
+    </div>
 </section>
+
 
 <section id="Education">
-    <h1>Education:</h1>
-<ul>
-    <li>CS Academy, Erode (2014-2021)</li>
-    <li>CS International, Erode (2021-2026)</li>
-    <li>CS Academy, Erode (2026-2028) - Currently High School Junior</li>
-</ul>
-    <h2>Studied under both the Cambridge IGCSE and CBSE curricula at the same institution. Transitioned from CBSE to IGCSE in Grade 6 and completed IGCSE through Grade 10 before returning to CBSE for Grades 11–12. This experience provided exposure to diverse academic approaches while developing adaptability, analytical thinking, and leadership across different student communities.</h2>
+    <h1>Education</h1>
+
+    <p class="education-intro">
+        My academic journey, built on curiosity, discipline,
+        and a constant drive to learn.
+    </p>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <h2>Senior Secondary Education</h2>
+            <h3>CS Academy, Erode</h3>
+            <p class="education-date">2026 – Present</p>
+            <p>
+                Currently pursuing Class XI under the CBSE
+                curriculum, exploring concepts across Physics,
+                Chemistry, Mathematics, Computer Science, and English.
+            </p>
+            <p class="education-highlight">
+                Current qualification: CBSE Class XI
+            </p>
+        </div>
+
+        <div class="education-card">
+            <h2>Cambridge IGCSE</h2>
+            <h3>CS International, Erode</h3>
+            <p class="education-date">2021 – 2026</p>
+            <p>
+                Subjects included Extended Mathematics, Additional Mathematics, Physics,
+                Chemistry, Biology, Economics, Accounting, First Language English, and Hindi.
+            </p>
+            <p class="education-highlight">
+                Completed the Cambridge IGCSE curriculum,
+                developing a strong foundation in science,
+                mathematics, and analytical thinking.
+            </p>
+        </div>
+
+    </div>
 </section>
 
-<section id="Leadership and Extracurriculars">
+<section id="Leadership-and-Extracurriculars">
     <h1>Leadership and Extracurriculars:</h1>
-<ul>
+<ul class="leadership-list">
     <li>BlueKode AI Lab Intern</li>
     <li>GirlUp School Vice President</li>
     <li>Assistant School Cultural Captain</li>
@@ -78,95 +131,123 @@
 
 <section id="Skills">
     <h1>Skills:</h1>
-    <h2>Technical Skills:</h2>
-<ul>
-    <li>Programming: Python, HTML, CSS, JavaScript</li>
-    <li>Web Development: Front-end development, responsive web design, UI/UX fundamentals</li>
-    <li>Data & AI: Data analysis fundamentals, machine learning concepts, generative AI tools</li>
-    <li>Tools: GitHub, Microsoft Office, Google Workspace</li>
-</ul>
+    <div class="skills-container">
+        <div class="skills-card">
+            <h2>Technical Skills:</h2>
+            <p>Programming: Python, HTML, CSS, JavaScript</p>
+            <p>Web Development: Front-end development, responsive web design, UI/UX fundamentals</p>
+            <p>Data & AI: Data analysis fundamentals, machine learning concepts, generative AI tools</p>
+            <p>Tools: GitHub, Microsoft Office, Google Workspace</p>
+        </div>
 
-    <h2>Analytical Skills:</h2>
-<ul>
-    <li>Critical Thinking</li>
-    <li>Logical Reasoning</li>
-    <li>Research & Information Analysis</li>
-    <li>Problem-Solving</li>
-    <li>Scientific Thinking</li>
-</ul>
+        <div class="skills-card">
+            <h2>Analytical Skills:</h2>
+            <p>Critical Thinking</p>
+            <p>Logical Reasoning</p>
+            <p>Research & Information Analysis</p>
+            <p>Problem-Solving</p>
+            <p>Scientific Thinking</p>
+        </div>
 
-    <h2>Leadership & Management:</h2>
-<ul>
-    <li>Team Coordination</li>
-    <li>Event Planning & Management</li>
-    <li>Project Management</li>
-    <li>Decision-Making</li>
-    <li>Initiative & Ownership</li>
-</ul>
+        <div class="skills-card">
+            <h2>Leadership & Management:</h2>
+            <p>Team Coordination</p>
+            <p>Event Planning & Management</p>
+            <p>Project Management</p>
+            <p>Decision-Making</p>
+            <p>Initiative & Ownership</p>
+        </div>
 
-    <h2>Communication Skills:</h2>
-<ul>
-    <li>Public Speaking</li>
-    <li>Presentation Skills</li>
-    <li>Written Communication</li>
-    <li>Negotiation & Diplomacy</li>
-    <li>Interpersonal Communication</li>
-</ul>
+        <div class="skills-card">
+            <h2>Communication Skills:</h2>
+            <p>Public Speaking</p>
+            <p>Presentation Skills</p>
+            <p>Written Communication</p>
+            <p>Negotiation & Diplomacy</p>
+            <p>Interpersonal Communication</p>
+        </div>
+        
+        <div class="skills-card">
+            <h2>Creative Skills:</h2>
+            <p>Creative Thinking</p>
+            <p>Idea Development</p>
+            <p>Content Creation</p>
+            <p>Visual Presentation Design</p>
+            <p>Innovation</p>
+        </div>
 
-    <h2>Creative Skills:</h2>
-<ul>
-    <li>Creative Thinking</li>
-    <li>Idea Development</li>
-    <li>Content Creation</li>
-    <li>Visual Presentation Design</li>
-    <li>Innovation</li>
-</ul>
+        <div class="skills-card">
+            <h2>Personal Strengths:</h2>
+            <p>Adaptability</p>
+            <p>Self-Learning</p>
+            <p>Time Management</p>
+            <p>Attention to Detail</p>
+            <p>Collaboration</p>
+        </div>
 
-    <h2>Personal Strengths:</h2>
-<ul>
-    <li>Adaptability</li>
-    <li>Self-Learning</li>
-    <li>Time Management</li>
-    <li>Attention to Detail</li>
-    <li>Collaboration</li>
-</ul>
-
+    </div>
 </section>
 
 <section id="Achievements">
     <h1>Achievements:</h1>
-    <h2>Licenses & Certifications:</h2>
-<ul>
-    <li>NASA Open Science Essentials</li>
-    <li>Codedex The Legend of Python</li>
-    <li>Outski;; Generative AI Mastermind</li>
-    <li>International Award for Young People (IAYP) Bronze Award</li>
-    <li>IITM The Fundamentals of Aerospace</li>
-    <li>Cambridge PET Grade A</li>
-    <li>SIP Abacus Grand Master</li>
-</ul>
-    <h2>Honors & Awards:</h2>
-<ul>
-    <li>U-18 Group Western Dance Competition - First Place</li>
-    <li>UKMT IMC 2025 Gold Certificate</li>
-    <li>BizForHer Case Competition</li>
-    <li>TEDEd 2025 Student Speaker</li>
-    <li>U-19 Volleyball Tournament - Third Place</li>
-    <li>TEDEd 2023 Student Speaker</li>
-    <li>Be an Entrepreneur Contest</li>
-    <li>UKMT JMC 2023 Silver Certificate</li>
-    <li>Public Speaking Competition - Second Place</li>
-    <li>Cube Battle Competition - U-14 2x2 Cube 1st Runner</li>
-    <li>Cube Battle Competition - U-14 Wooden Cube Winner</li>
-</ul>
+    <div class="achieve-container">
+        <div class="achieve-card">
+            <h2>Licenses & Certifications:</h2>
+            <p>NASA Open Science Essentials</p>
+            <p>Codedex The Legend of Python</p>
+            <p>Outskill Generative AI Mastermind</p>
+            <p>International Award for Young People (IAYP) Bronze Award</p>
+            <p>IITM The Fundamentals of Aerospace</p>
+            <p>Cambridge PET Grade A</p>
+            <p>SIP Abacus Grand Master</p>
+        </div>
+
+        <div class="achieve-card">
+            <h2>Honors & Awards:</h2>
+            <p>U-18 Group Western Dance Competition - First Place</p>
+            <p>UKMT IMC 2025 Gold Certificate</p>
+            <p>BizForHer Case Competition</p>
+            <p>TEDEd 2025 Student Speaker</p>
+            <p>U-19 Volleyball Tournament - Third Place</p>
+            <p>TEDEd 2023 Student Speaker</p>
+            <p>Be an Entrepreneur Contest</p>
+            <p>UKMT JMC 2023 Silver Certificate</p>
+            <p>Public Speaking Competition - Second Place</p>
+            <p>Cube Battle Competition - U-14 2x2 Cube 1st Runner</p>
+            <p>Cube Battle Competition - U-14 Wooden Cube Winner</p>
+        </div>
+
+    </div>
 </section>
 
 <section id="Socials">
-    <h1>Socials:</h1>
-    <a href="https://www.linkedin.com/in/kripali-agarwal-d/"><button>LinkedIn</button></a>
-    <a href="tokripali@gmail.com"><button>GMail</button></a>
-    <a href="https://www.instagram.com/kripali_agarwal_?exln=MWNzYXhwdHA3Nm5weg=="><button>Instagram</button></a>
-    <a href="https://github.com/kripali-agarwal"><button>GitHub</button></a>
+    <h1>Find Me Online</h1>
+    <div class="socials-container">
+        <div class="socials-card">
+            <a href="https://www.linkedin.com/in/kripali-agarwal-d/"><button>LinkedIn</button></a>
+            <h2>LinkedIn</h2>
+            <p>Professional profile</p>
+        </div>
+
+        <div class="socials-card">
+            <a href="tokripali@gmail.com"><button>GMail</button></a>
+            <h2>Gmail</h2>
+            <p>Send me an email</p>
+        </div>
+
+        <div class="socials-card">
+            <a href="https://www.instagram.com/kripali_agarwal_?exln=MWNzYXhwdHA3Nm5weg=="><button>Instagram</button></a>
+            <h2>Instagram</h2>
+            <p>Creative side</p>
+        </div>
+    
+        <div class="socials-card">
+            <a href="https://github.com/kripali-agarwal"><button>GitHub</button></a>
+            <h2>GitHub</h2>
+            <p>Projects and code</p>
+        </div>
+    
+    </div>
 </section>
 
 </body>
