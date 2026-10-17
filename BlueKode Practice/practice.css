@@ -1,4 +1,9 @@
 
+/* General webpage styling */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F5F3FF;
     color: #334155;
@@ -8,17 +13,14 @@ body {
     font-style: normal;
     line-height: 1.8;
     text-align: left;
+    margin: 0;
 }
 
-#About-Me {
-    background-color: #E0E7FF;
-    color: #334155;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.8;
-    text-align: justify;
+/* Header */
+header {
+    background-color: #E9DFFF;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
@@ -26,36 +28,121 @@ h1 {
     font-family: monospace;
     font-size: 36px;
     font-weight: bold;
-    font-style: normal;
     text-align: center;
 }
 
+header p {
+    color: #4C1D95;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #4338CA;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    background-color: #4338CA;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* About Me card */
+#About-Me {
+    background-color: #FFFFFF;
+    color: #334155;
+    width: 90%;
+    max-width: 800px;
+    margin: 35px auto;
+    padding: 30px;
+    border: 2px solid #C7D2FE;
+    border-radius: 18px;
+    box-shadow: 0px 4px 12px #D6D3F0;
+}
+
+/* Section headings */
 h2 {
     color: #4338CA;
     font-family: monospace;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
-    font-style: normal;
     text-align: left;
 }
 
+/* Paragraphs */
 p {
     color: #334155;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: normal;
-    font-style: normal;
     line-height: 1.8;
     text-align: justify;
 }
 
+/* Image and caption */
+figure {
+    background-color: #EEF2FF;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #C7D2FE;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px #E0E7FF;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    color: #4C1D95;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Lists */
+ul, ol {
+    background-color: #F5F3FF;
+    padding: 20px 20px 20px 45px;
+    border: 1px solid #DDD6FE;
+    border-radius: 10px;
+}
+
+li {
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Website link */
+a {
+    color: #4338CA;
+    font-weight: bold;
+}
+
+/* Footer */
 footer {
     background-color: #E9DFFF;
     color: #4C1D95;
-    font-family: monospace;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #4C1D95;
     font-size: 14px;
-    font-weight: bold;
     font-style: italic;
-    line-height: 1.6;
     text-align: center;
 }
